@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 </head>
 
 <!-- Body part  -->
@@ -182,7 +185,11 @@
         <h1>More About AWS</h1>
         <hr>
         <div class="card AWS-card-video">
-            <a href=""><img src="images/Video.png" class="card-img-top" alt="thumbnail-img"></a>
+            <a class="popup-youtube" href="https://www.youtube.com/embed/P7Pru6c5pto" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen><img src="images/Video.png" class="card-img-top" alt="thumbnail-img"></a>
+            
             <div class="card-body card-body-video">
                 <h5>How APN Helps Partners Grow Their Business</h5>
                 <p class="card-text card-text-video">The AWS Partner Network(APN) helps companies build,market,and sell
@@ -242,6 +249,18 @@
             </span> </p>
 
     </footer>
+    <script>
+        $(function () {
+            $('.popup-youtube, .popup-vimeo').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+        });
+    </script>
 </body>
 
 </html>
