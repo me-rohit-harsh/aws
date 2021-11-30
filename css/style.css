@@ -1,0 +1,182 @@
+/* @import "/style.sass"; */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.AWS-fluid-container {
+    height: 450px;
+    background-color: #1B2330;
+    color: #fff;
+}
+
+.col-md-4 img {
+    border-radius: 10px;
+}
+
+.aws-partner-con,
+.AWS-main-body {
+    margin-left: 14%;
+}
+
+.aws-partner-con h2 {
+    padding-top: 15%;
+}
+
+.aws-partner-con,
+.aws-partner-succ,
+.AWS-main-body h1 {
+    color: #FF9900;
+    font-weight: 300;
+}
+
+.AWS-ISV {
+    padding-top: 12%
+}
+
+.AWS-ISV-2 {
+    padding-top: 18%
+}
+
+
+.AWS-main-body p {
+    color: #C2C4C8;
+}
+
+hr:not([size]) {
+    height: 5px;
+    color: #FF9900;
+    width: 70px;
+    opacity: 1;
+}
+
+.AWS-e-books-card {
+    max-width: 540px;
+    border: none;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: #FF9900;
+    color: rgb(0, 0, 0);
+    border: none;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #f7a01f;
+}
+
+.AWS-card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.AWS-infographic-container h1 {
+    padding-top: 8%;
+}
+
+.AWS-partners h2,
+.AWS-infographic-container h2 {
+    color: #FF9900;
+    margin: 20px 0;
+    font-weight: 200;
+}
+
+.AWS-partners p,
+.AWS-infographic-container p {
+    color: #C2C4C8;
+    margin: 20px 0px;
+}
+
+.col-md-4 {
+    padding: 0;
+}
+
+.E-books,
+.About-AWS {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card-text-video {
+    font-size: 15px;
+}
+
+.card-body-video {
+    padding: 0;
+}
+
+.AWS-card-video {
+    border: none;
+    width: 18rem;
+}
+
+footer {
+    background-color: #FF9900;
+    height: 15vh;
+}
+
+footer p {
+    padding-top: 2.5%;
+    margin-left: 100px;
+}
+
+span {
+    position: absolute;
+    right: 100px;
+}
+
+span i {
+    padding: 5px 10px;
+    color: black;
+}
+
+img,
+button,
+a,
+footer {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+@media (max-width:600px) {
+
+    .aws-partner-con,
+    .AWS-main-body {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .col-md-4 {
+        padding: 0 12px;
+    }
+
+    footer p {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    span {
+        position: relative;
+        right: 0px;
+        display: block;
+    }
+
+    .AWS-fluid-container:nth-child(2) {
+        height: 70vh;
+    }
+
+    .AWS-fluid-container {
+        height: 50vh;
+    }
+}
